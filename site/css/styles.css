@@ -1,0 +1,225 @@
+body{
+font-size: 16px;
+background-color: #8E7CC3;
+font-family: 'Spartan', sans-serif;
+color: #8E7CC3;
+ }
+#header-nav {
+background-color: white;
+border-radius: 0;
+
+border: 0;
+
+
+
+}
+.navbar-header{
+  
+  margin: 0;
+
+}
+#logo-img{
+ background: url('https://lh3.googleusercontent.com/liXcpZyNpdWgNesbVNx3-OAlZ1y3KbkyfmJIwttcR4Cr8W9QB1SMw25aJtDIqli7KPphXQ=s92') no-repeat ; 
+ width: 100px;
+ height: 100px;
+ margin: 10px,15px,10px,0px;
+
+
+}
+
+.navbar-brand h1{
+  
+  font-family: 'Shadows Into Light Two',cursive; 
+color: black;
+font-size: 2.5em;
+text-shadow: 1px 1px 1px #222;
+margin-top: 30px;
+line-height: 0.0;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+
+}
+.navbar-brand1 h1{
+  
+  font-family: 'Shadows Into Light Two',cursive; 
+color: black;
+font-size: 2em;
+text-shadow: 1px 1px 1px #222;
+margin-top: 23px;
+margin-left: 5px;
+line-height: 0.0;
+
+}
+.navbar-brand1 a:hover, .navbar-brand a:focus {
+  text-decoration: none;}
+#nav-list {
+  margin-top: 25px;
+
+
+ }
+ #nav-list a{
+  text-align: right;
+ }
+#nav-list a:hover{
+  
+  color:  #CCCCCC
+  
+  
+}
+#nav-list li a{
+  font-size: .9em;
+  text-transform: uppercase;
+  
+
+}
+#phone div{
+  text-align: right;
+  font-size: .6em;
+
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  
+  border: 1px  ;
+  background-color:grey;
+}
+
+
+}
+.navbar-header button.navbar-toggle{
+  clear: both;
+   margin-top: -30px;
+}
+ a .hlyphicon-earphone{
+ color: black;
+  font-size: 1em;}
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;}
+
+#menu-tile, #specials-tile, #map-tile{
+height: 250px;
+width: 100%;
+margin-bottom: 15px;
+position: relative;
+border: 2px solid ##8E7CC3;
+overflow:hidden;
+font-family: 'Spartan', sans-serif;
+text-transform: uppercase;
+}
+#menu-tile:hover , #specials-tile:hover, #map-tile:hover{
+  box-shadow: 0 1px 5px 1px grey;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #333333 ;
+  color: #8E7CC3;
+  opacity: .8;
+  font-family: 'Average', serif ;
+
+   }
+
+#menu-tile {
+  background: url('https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/purple_power_foods_slideshow/493ss_thinkstock_rf_purple_cabbage.jpg') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
+
+}
+#map-tile{
+  background: url('https://localfame.com/wp-content/uploads/2015/01/London-restaurants-s-e1420702489637.jpg');
+  background-position: center;
+}
+#menu-tile, #special-tile {
+  width:360px;
+  margin: 0 auto 15px;
+}
+
+
+
+
+  
+
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('https://theedge.hk/sites/default/files/Hutong_Backroom%20right%20uncropped.jpg') no-repeat;
+    height: 675px;
+    background-position: center;
+    box-shadow: 15px;
+  }
+
+}
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+  
+ .container .jumbotron {
+    background: url('https://timable.com/res/pic/8039f4fb404fddd3c2a44f1c06578dc03.jpg') no-repeat;
+    height: 558px;
+    position: center;
+  }
+  }
+  @media (min-width: 767px) and (max-width: 991px) {
+ 
+  .container .jumbotron {
+    background: url('https://yellow.place/file/image/cover/0/0/194/ldomzsjoxxpiafbf.jpg') no-repeat;
+    height: 432px;
+    position: center;
+  }
+ 
+  @media (min-width: 238px) and (max-width: 476px) {
+ 
+  .container .jumbotron {
+    background: url('https://img.traveltriangle.com/blog/wp-content/uploads/2017/09/Cover21-400x266.jpg') no-repeat;
+    height: 200px;
+    position: center;
+  }
+ 
+  
+
+  }
+
+
+
+
+
+
