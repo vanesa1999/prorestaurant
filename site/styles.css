@@ -22,12 +22,12 @@ border: 0;
  background: url('https://lh3.googleusercontent.com/liXcpZyNpdWgNesbVNx3-OAlZ1y3KbkyfmJIwttcR4Cr8W9QB1SMw25aJtDIqli7KPphXQ=s92') no-repeat ; 
  width: 100px;
  height: 100px;
- margin: 10px,15px,10px,0px;
+ margin: 10px 15px 10px 0px;
 
 
 }
 
-.navbar-brand h1{
+span > a  {
   
   font-family: 'Shadows Into Light Two',cursive; 
 color: black;
@@ -87,8 +87,6 @@ line-height: 0.0;
   background-color:grey;
 }
 
-
-}
 .navbar-header button.navbar-toggle{
   clear: both;
    margin-top: -30px;
@@ -134,8 +132,8 @@ height: 250px;
 width: 100%;
 margin-bottom: 15px;
 position: relative;
-border: 2px solid ##8E7CC3;
-overflow:hidden;
+border: 2px solid #8E7CC3;
+overflow:hidden ;
 font-family: 'Spartan', sans-serif;
 text-transform: uppercase;
 }
@@ -161,23 +159,21 @@ text-transform: uppercase;
   background: url('https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/purple_power_foods_slideshow/493ss_thinkstock_rf_purple_cabbage.jpg') no-repeat;
   background-position: center;
 }
-#specials-tile {
-  background: url('https://mysolluna.com/wp-content/uploads/2019/12/Purple-Potato-Cabbage-Soup-Recipe-600-x-900-Hero-Pinterest.jpg') no-repeat;
-  background-position: center;
 
-}
-#map-tile{
+#specials-tile {
+  background: url('https://maayeka.com/wp-content/uploads/2017/05/purple-cabbage-rice-maayeka.jpg') no-repeat;
+  background-position: center;
+  }
+
+#map-tile {
   background: url('https://localfame.com/wp-content/uploads/2015/01/London-restaurants-s-e1420702489637.jpg');
   background-position: center;
 }
-#menu-tile, #special-tile {
+
+#menu-tile, #specials-tile {
   width:360px;
   margin: 0 auto 15px;
 }
-
-
-
-
   
 
 @media (min-width: 1200px) {
@@ -185,7 +181,7 @@ text-transform: uppercase;
     background: url('https://theedge.hk/sites/default/files/Hutong_Backroom%20right%20uncropped.jpg') no-repeat;
     height: 675px;
     background-position: center;
-    box-shadow: 15px;
+    
   }
 
 }
@@ -216,7 +212,7 @@ text-transform: uppercase;
  
   
 
-  }
+  
 
 
 
